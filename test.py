@@ -11,3 +11,5 @@ if __name__=='__main__':
     import os
     PORT = os.getenv("PORT" ,5000)
     app.run("0.0.0.0" ,PORT)
+    
+print("test")
